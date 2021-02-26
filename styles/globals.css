@@ -1,0 +1,34 @@
+/* ./styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: Gotham;
+    font-weight: 400;
+    src: url("../fonts/Gotham-Book.otf") format("opentype");
+  }
+
+  @font-face {
+    font-family: Gotham;
+    font-weight: 500;
+    src: url("../fonts/Gotham-Medium.otf") format("opentype");
+  }
+
+  @font-face {
+    font-family: Gotham;
+    font-weight: 600;
+    src: url("../fonts/Gotham-Bold.otf") format("opentype");
+  }
+
+  @font-face {
+    font-family: Gotham;
+    font-weight: 700;
+    src: url("../fonts/Gotham-Black.otf") format("opentype");
+  }
+}
+
+body {
+  font-family: Gotham;
+}
